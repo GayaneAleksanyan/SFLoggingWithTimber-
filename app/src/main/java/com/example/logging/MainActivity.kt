@@ -17,6 +17,9 @@ class MainActivity : ComponentActivity() {
         }
 
         Timber.d("!!!onCreate")
+
+        val getObjectFromAppClass = App.instance.objectInAppClass
+        println(getObjectFromAppClass)
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
