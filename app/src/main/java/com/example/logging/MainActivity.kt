@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
             text_from_edit_text.text = e_text.text
         }
 
-        Timber.d("onCreate")
+        Timber.d("!!!onCreate")
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
@@ -32,26 +32,26 @@ class MainActivity : ComponentActivity() {
 
     override fun onStart() {
         super.onStart()
-        Timber.d("onStart")
+        Timber.d("!!!onStart")
     }
 
     override fun onResume() {
         super.onResume()
-        Timber.d("onResume")
+        Timber.d("!!!onResume")
     }
 
     override fun onPause() {
         super.onPause()
-        Timber.d("onPause")
+        Timber.d("!!!onPause")
     }
 
     override fun onStop() {
         super.onStop()
-        Timber.d("onStop")
+        Timber.d("!!!onStop")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Timber.d("onDestroy")
+        Timber.d("!!!onDestroy")
     }
 }
